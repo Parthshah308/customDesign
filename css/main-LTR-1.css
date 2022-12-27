@@ -1259,6 +1259,9 @@ body.hard-squared-btns .swiper-button-next {
   padding-top: 20px;
   transition: padding 0.5s ease-in-out 0s;
 }
+html {
+  scroll-behavior: smooth;
+}
 .page-header .main-navbar {
   position: relative;
   display: flex;
@@ -1282,7 +1285,7 @@ body.hard-squared-btns .swiper-button-next {
   color: #9c4f22;
 }
 .page-header .navbar-brand .brand-logo {
-  max-height: 50px;
+  max-height: 100px;
 }
 @media (max-width: 1199px) {
   .page-header .navbar-brand .brand-logo {
